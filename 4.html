@@ -7,8 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 
-    <title>Web Development Resources</title>
+    <title>Color</title>
   </head>
   <body>
     <div class="container-fluid bg-light px-0">
@@ -32,17 +34,100 @@
           <li class="nav-item">
             <a class="nav-link" href="#">TBD</a>
           </li>
-       
+      
         </ul>
     
       </div>
     </nav>
-    <div class="container mt-5">
-      <h2 class="mb-4">How to resources:</h2>
+    <div class="container mt-5 container-color">
+      <h2 class="mb-4 title-color">Colors in CSS:</h2>
+        <div class="row">
+      <div class="col-lg"><h5 class="h5-color">To use basic colors in css all you need is to type the name of the color</h5></div>
+      </div>
+      <div class="row">
+        <div class="col-sm col-basic">
+          To use the color red, type:<br> color: red <div class="basic basic-red"></div>
+        </div>
+        <div class="col-sm col-basic">
+          To use the color green, type:<br> color: green<div class="basic basic-green"></div>
+        </div>
+        <div class="col-sm col-basic">
+          To use the color blue, type:<br> color: blue<div class="basic basic-blue"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm ex-row">Some more examples of color names:</div>
+      </div>
+      <div class="row">
+        <div class="col-sm ex-col">color: yellow <div class="ex-color ex-yellow"></div></div>
+        <div class="col-sm ex-col">color: purple<div class="ex-color ex-purple"></div></div>
+        <div class="col-sm ex-col">color: coral<div class="ex-color ex-coral"></div></div>
+      </div>
 
+
+        <div class="row">
+      <div class="col-lg"><h5 class="h5-color">You can also use the hexadecimal color value with #<span class="span-r">RR</span><span class="span-g">GG</span><span class="span-b">BB</span><br/> using the numbers 0-9 and letters A-F</h5></div>
+      </div>
+      <div class="row">
+        <div class="col-sm col-basic">
+          To use the color red, type:<br> color: #FF0000 <div class="basic basic-red"></div>
+        </div>
+        <div class="col-sm col-basic">
+          To use the color green, type:<br> color: #00FF00<div class="basic basic-green"></div>
+        </div>
+        <div class="col-sm col-basic">
+          To use the color blue, type:<br> color: #0000FF<div class="basic basic-blue"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm ex-row">Some more examples of hexadecimal colors:</div>
+      </div>
+      <div class="row">
+        <div class="col-sm ex-col">color: #5F9EA0<div class="ex-color ex-cadet"></div></div>
+        <div class="col-sm ex-col">color: #DEB887<div class="ex-color ex-burly"></div></div>
+        <div class="col-sm ex-col">color: #2F4F4F<div class="ex-color ex-slate"></div></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg"><h5 class="h5-color">You can also use the RGB color value with rgb(<span class="span-r">rrr</span>,<span class="span-g">ggg</span>,<span class="span-b">bbb</span>)<br/> using the numbers 0-250</h5></div>
+        </div>
+        <div class="row">
+          <div class="col-sm col-basic">
+            To use the color red, type:<br> color: rgb(255,0,0)<div class="basic basic-red"></div>
+          </div>
+          <div class="col-sm col-basic">
+            To use the color green, type:<br> color: rgb(0,255,0)<div class="basic basic-green"></div>
+          </div>
+          <div class="col-sm col-basic">
+            To use the color blue, type:<br> color: rgb(0,0,255)<div class="basic basic-blue"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm ex-row">Some more examples of using rgb colors:</div>
+        </div>
+        <div class="row">
+          <div class="col-sm ex-col">color: rgb(255, 215, 0)<div class="ex-color ex-gold"></div></div>
+          <div class="col-sm ex-col">color: rgb(238, 130, 238)<div class="ex-color ex-violet"></div></div>
+          <div class="col-sm ex-col">color: rgb(154, 205, 50)<div class="ex-color ex-yellowgreen"></div></div>
+        </div>
+
+
+      <div class="row">
+        <div class="col-lg"><h5 class="h5-color">Now if you would like to change the opacity you can add any number from 0-1 in place of the a.<br/> rgb(<span class="span-r">rrr</span>,<span class="span-g">ggg</span>,<span class="span-b">bbb</span>,a) </h5></div>
+        </div>
+        <div class="row">
+          <div class="col-sm col-basic">
+            To make a more translucent red, type:<br> color: rgba(255,0,0,.3)<div class="basic translucent"></div>
+          </div>
+          <div class="col-sm col-basic">
+            To make a more solid red, type:<br> color: rgba(250,0,0,.7)<div class="basic solid"></div>
+          </div>
+        </div>
+        
+        
     </div>
   </div>
-   
+  
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
