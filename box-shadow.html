@@ -60,126 +60,137 @@
       </div>
     </nav>
 
-  <div class="container mt-5">
-<div class="twocolumns">
-    <div class="left-column">
-        <div style="box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.22); border-radius: 20px; " 
-         class="box">
-            <div  class="holder">
-                <div class="frame">
-                    <div class="setting-block">
-                        <div class="row">
-                            <label for="horizontal-length">Horizontal Length</label>
-                            <label class="align-right" for="horizontal-length">px</label>
-                            <div class="text-1">
-                                <input id="horizontal-length" type="text" value="10" />
-                            </div>
-                        </div>
-                        <div id="slider-horizontal-bs" class="slider-bar large"></div>
 
-                        <div class="row mtop15">
-                            <label for="vertical-length">Vertical Length</label>
-                            <label class="align-right" for="vertical-length">px</label>
-                            <div class="text-1">
-                                <input id="vertical-length" type="text" value="10" />
-                            </div>
-                        </div>
-                        <div id="slider-vertical-bs" class="slider-bar large"></div>
+    <div class="container  mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="left-column">
+            <div 
+            class="box">
+               <div  style="box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.22); border-radius: 20px; "  class=" bg-white holder">
+                   <div class="ml-5 frame">
+                       <div class="setting-block">
+                           <div class="row">
+                               <label for="horizontal-length">Horizontal Length</label>
+                               <label class="align-right" for="horizontal-length">px</label>
+                               <div class="text-1">
+                                   <input id="horizontal-length" type="text" value="10" />
+                               </div>
+                           </div>
+                           <div id="slider-horizontal-bs" class="slider-bar large"></div>
+   
+                           <div class="row mtop15">
+                               <label for="vertical-length">Vertical Length</label>
+                               <label class="align-right" for="vertical-length">px</label>
+                               <div class="text-1">
+                                   <input id="vertical-length" type="text" value="10" />
+                               </div>
+                           </div>
+                           <div id="slider-vertical-bs" class="slider-bar large"></div>
+                       </div>
+   
+                       <div class="setting-block">
+                           <div class="row">
+                               <label for="blur-radius">Blur Radius</label>
+                               <label class="align-right" for="blur-radius">px</label>
+                               <div class="text-1">
+                                   <input id="blur-radius" type="text" value="5" />
+                               </div>
+                           </div>
+                           <div id="slider-blur-bs" class="slider-bar large"></div>
+   
+                           <div class="row mtop15">
+                               <label for="spread-field">Spread Radius</label>
+                               <label class="align-right" for="spread-field">px</label>
+                               <div class="text-1">
+                                   <input id="spread-field" type="text" value="0" />
+                               </div>
+                           </div>
+                           <div id="slider-spread-field" class="row-s slider-bar large"></div>
+                       </div>
+   
+                       <div class="setting-block">
+                           <div class="row color-row">
+                               <label for="shadow-color">Shadow Color</label>
+                               <div class="text-2">
+                                   <input id="shadow-color" type="text" value="#000000" />
+                               </div>
+                               <a id="shadow-color-button" class="btn-color color-3" href="javascript:;">
+                                   <span>color</span>
+                               </a>
+                           </div>
+                       </div>
+   
+                       <div class="setting-block">
+                           <div class="row color-row">
+                               <label for="background-color">Background Color</label>
+                               <div class="text-2">
+                                   <input id="background-color" type="text" value="#ffffff" />
+                               </div>
+                               <a id="background-color-button" class="btn-color color-5" href="javascript:;">
+                                   <span>color</span>
+                               </a>
+                           </div>
+                       </div>
+   
+                       <div class="setting-block">
+                           <div class="row color-row">
+                               <label for="box-color">Box Color</label>
+                               <div class="text-2">
+                                   <input id="box-color" type="text" value="#ff69b4" />
+                               </div>
+                               <a id="box-color-button" class="btn-color color-4" href="javascript:;">
+                                   <span>color</span>
+                               </a>
+                           </div>
+                       </div>
+   
+                       <div class="setting-block">
+                           <div class="row">
+                               <label for="shadow-opacity">Opacity</label>
+                               <div class="text-1">
+                                   <input id="shadow-opacity" type="text" value="0.75" />
+                               </div>
+                           </div>
+                           <div id="slider-opacity-bs" class="slider-bar large"></div>
+                       </div>
+   
+                       <div class="setting-block">
+                           <div class="option-panel">
+                               <div id="inset-button" class="slider-block">
+                                   <span id="inset-no" class="dot"></span>
+                                   <div  class="slider-small"><a class="knob left-pos" href="javascript:;">knob</a></div>
+                                   <span id="inset-ok" class="dot selected"></span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   </div>
+               </div>
+           </div>
+          </div>
+          <div class="col">
+            <div style="border-radius: 20px;" class="jumbotron jumbotron-fluid">
+                <div style="margin-left: 50px;" class="container">
+                    <div id="box-shadow-code" class="content"></div>
+                </div>
+              </div>
+        
+
+            <div sid="box-shadow-wrapper" class="right-column">
+            <div class="box-wrap">
+              
+    
+                <div id="box-shadow-panel">
+                    <div style="margin-left: 3rem; box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.22) !important; border-radius: 20px;" id="box-shadow-object">
                     </div>
-
-                    <div class="setting-block">
-                        <div class="row">
-                            <label for="blur-radius">Blur Radius</label>
-                            <label class="align-right" for="blur-radius">px</label>
-                            <div class="text-1">
-                                <input id="blur-radius" type="text" value="5" />
-                            </div>
-                        </div>
-                        <div id="slider-blur-bs" class="slider-bar large"></div>
-
-                        <div class="row mtop15">
-                            <label for="spread-field">Spread Radius</label>
-                            <label class="align-right" for="spread-field">px</label>
-                            <div class="text-1">
-                                <input id="spread-field" type="text" value="0" />
-                            </div>
-                        </div>
-                        <div id="slider-spread-field" class="row-s slider-bar large"></div>
-                    </div>
-
-                    <div class="setting-block">
-                        <div class="row color-row">
-                            <label for="shadow-color">Shadow Color</label>
-                            <div class="text-2">
-                                <input id="shadow-color" type="text" value="#000000" />
-                            </div>
-                            <a id="shadow-color-button" class="btn-color color-3" href="javascript:;">
-                                <span>color</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="setting-block">
-                        <div class="row color-row">
-                            <label for="background-color">Background Color</label>
-                            <div class="text-2">
-                                <input id="background-color" type="text" value="#ffffff" />
-                            </div>
-                            <a id="background-color-button" class="btn-color color-5" href="javascript:;">
-                                <span>color</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="setting-block">
-                        <div class="row color-row">
-                            <label for="box-color">Box Color</label>
-                            <div class="text-2">
-                                <input id="box-color" type="text" value="#ff69b4" />
-                            </div>
-                            <a id="box-color-button" class="btn-color color-4" href="javascript:;">
-                                <span>color</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="setting-block">
-                        <div class="row">
-                            <label for="shadow-opacity">Opacity</label>
-                            <div class="text-1">
-                                <input id="shadow-opacity" type="text" value="0.75" />
-                            </div>
-                        </div>
-                        <div id="slider-opacity-bs" class="slider-bar large"></div>
-                    </div>
-
-                    <div class="setting-block">
-                        <div class="option-panel">
-                            <span>Outline</span>
-                            <span>Inset</span>
-                            <div id="inset-button" class="slider-block">
-                                <span id="inset-no" class="dot"></span>
-                                <div  class="slider-small"><a class="knob left-pos" href="javascript:;">knob</a></div>
-                                <span id="inset-ok" class="dot selected"></span>
-                            </div>
-                        </div>
-                    </div>
+                 
                 </div>
             </div>
+          </div>
+          </div>
         </div>
-    </div>
-    <div style="background-color: #f8f9fa" id="box-shadow-wrapper" class="right-column">
-        <div class="box-wrap">
-            <div id="box-shadow-code" class="content"></div>
 
-            <div id="box-shadow-panel">
-                <div style=" box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.22) !important; border-radius: 20px;" id="box-shadow-object">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-  </div>
 
 </body>
 </html>
