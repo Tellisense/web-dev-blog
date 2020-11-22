@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+}
+
+.keybord-title {
+  text-align: center;
+}
+.save {
+  font-size: 26px;
+}
