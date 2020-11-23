@@ -12,19 +12,29 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 1500px;
+  color: white;
 }
 
 .title-color {
-  background-color: yellow;
+  background-color: #ffa358;
   margin-top: 10px;
   height: 80px;
-  padding-top:
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 
 .color-header {
   width: 100%;
   text-align: center;
   margin-top: 20px;
+}
+
+.color-hfive {
+  background-color: rgb(109, 90, 136);
+  border: 2px solid black;
+  border-radius: 3px;
 }
 
 
@@ -37,9 +47,12 @@ body {
 .color-row {
   margin-left: 0%;
   margin-right: 0%;
+  border: 2px solid black;
+  border-radius: 3px;
 }
 
 .col-basic {
+  background-color: #486bc5;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -50,7 +63,7 @@ body {
   height: 75px;
   width: 75px;
   margin-bottom: 8px;
-  border: solid 2px;
+  border: solid 2px black;
   border-radius: 5px;
 }
 
@@ -78,6 +91,10 @@ body {
   color: blue;
 }
 
+.span-a {
+  color: grey;
+}
+
 .translucent {
   background-color: rgba(255,0,0,.3)
 }
@@ -91,8 +108,17 @@ body {
   margin-right: 0%;
 }
 
+.row-ex-color {
+  background-color: #91bfdf;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
 .ex-row {
+  background-color: rgba(81, 177, 255, 0.473);
   text-align: center;
+  border: 2px solid black;
+  border-radius: 3px;
 }
 
 .ex-col {
@@ -102,13 +128,12 @@ body {
 }
 
 
-
 .ex-color {
   height: 40px;
   width: 40px;
   margin-top: 5px;
   margin-bottom: 5px;
-  border: solid 1px;
+  border: solid 1px black;
   border-radius: 3px;
 }
 
@@ -151,6 +176,8 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 
