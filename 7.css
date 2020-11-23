@@ -3,3 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+main {
+  background: #343a40;
+  padding: 1px;
+}
+h1 {
+  background-color: #ddd;
+  padding: 1rem;
+  margin: 0;
+}
+.main-text {
+  max-width: 1170px;
+  width: 90%;
+  margin: 3rem auto;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.footer {
+  padding: 3rem;
+  background-color: #573313cc;
+  color: #fff;
+}
