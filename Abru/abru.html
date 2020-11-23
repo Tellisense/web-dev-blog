@@ -12,7 +12,7 @@
 
 
 </head>
-<body>
+<body >
    <div class="container">
    
     <div class="container-fluid bg-light px-0">
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="/howtos.html">HOW TO'S<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TBD</a>
+                <a class="nav-link" href="./abru.html">keyboard shortcuts</a>
               </li>
            
             </ul>
@@ -42,8 +42,8 @@
           </div>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
+        <div class="jumbotron jumbotron-fluid container d-flex justify-content-center">
+            <div >
               <h1 class="display-4">keyboard shortcuts</h1>
               <p class="lead">This are the most use full keyboard shortcuts. </p>
             </div>
@@ -74,13 +74,13 @@
 
   
  
-  <div class="keybord-title">
-  <h2>Keyboard Shortcuts For Windows and Mac</h2>
-  <p>Keyboard shortcuts are often used in modern operating systems and computer software programs.</p>
+  <div class="intro">
+  <h2 class="keybord-title">Keyboard Shortcuts For Windows and Mac</h2>
+  <p class="explenation">Keyboard shortcuts are often used in modern operating systems and computer software programs.</p>
   <p>Learning and using keyboard shortcuts <span class="save"> can save you a lot of time.</span></p>
   </div>
   
-  <h2>Basic Shortcuts</h2>
+  <h2 class="keybord-title p-3 mb-2 bg-secondary text-white">Basic Shortcuts</h2>
   
   
   
@@ -172,7 +172,7 @@
   </tr>
   </tbody></table>
   
-  <h2>Text Editing</h2>
+  <h2 class="p-3 mb-2 bg-secondary text-white">Text Editing</h2>
   <table class="table table-hover">
   <tbody class="thead-dark">
     <tr>
@@ -447,28 +447,20 @@
   <td>Cmd + Z</td>
   </tr>
   </tbody></table>
-  <hr>
-  <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
-  <!-- MidContent -->
-  <!-- <p class="adtext">Advertisement</p> -->
   
-    <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
-    <div id="snhb-mid_content-0"></div>
   
-  </div>
-  <hr>
-  
-  <h2>Web Browsers</h2>
-  <table class="w3-table-all notranslate">
-  <tbody><tr>
-  <th style="width:52%">Description</th>
-  <th style="width:24%">Windows</th>
-  <th style="width:24%">Mac OS</th>
+  <h2 class="p-3 mb-2 bg-secondary text-white">Web Browsers</h2>
+  <table class="table">
+  <tbody class="table-active" >
+    <tr>
+  <th >Description</th>
+  <th >Windows</th>
+  <th >Mac OS</th>
   </tr>
   <tr>
-  <td style="height:25px;"><strong>Navigation</strong></td>
-  <td style="height:25px;"></td>
-  <td style="height:25px;"></td>
+  <td ><strong>Navigation</strong></td>
+  <td ></td>
+  <td ></td>
   </tr>   
   <tr>
   <td>Scroll down a frame</td>
@@ -718,9 +710,10 @@
   </tr>
   </tbody></table>
   
-  <h2>Screenshots</h2>
-  <table class="w3-table-all notranslate">
-  <tbody><tr>
+  <h2 class="p-3 mb-2 bg-secondary text-white">Screenshots</h2>
+  <table class="table">
+  <tbody class="table-primary">
+    <tr>
   <th style="width:52%">Description</th>
   <th style="width:24%">Windows</th>
   <th style="width:24%">Mac OS</th>
@@ -757,9 +750,12 @@
   </tr>
   </tbody></table>
   
-  <div class="w3-note w3-panel">
-  <p><b>Note:</b> Due to different keyboard setups, some shortcuts may not be compatible for all users.</p>
-  </div>
+  
+  <div class="alert alert-info" role="alert">
+    <strong>Heads up!</strong> Due to different keyboard setups, some shortcuts may not be compatible for all users.
+</div>
+  
+  
   
   </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

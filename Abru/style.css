@@ -4,9 +4,24 @@
   border: border-box;
 }
 
+body {
+  background: linear-gradient(to bottom left, #99ffcc -3%, #ffcccc 70%);
+}
+
+.intro {
+  text-align: center;
+  margin: 20px;
+}
+
 .keybord-title {
+  font-family: cursive;
   text-align: center;
 }
 .save {
   font-size: 26px;
+}
+
+.explenation {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
 }
