@@ -1,0 +1,267 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa !important;
+}
+
+.ak-parent {
+  background-color: #212529de;
+  width: 100%;
+  height: 900px;
+  /* display: flex; */
+}
+
+.ak-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ak-c-one {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  /* background-color: coral; */
+  /* border: 2px solid coral; */
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.ak-img-one {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  transition: 0.7 !important;
+}
+
+.ak-img-one:hover {
+  transform: scale(1.2) !important;
+  transition: 0.7s !important;
+}
+
+.ak-text-rgb {
+  text-align: center;
+  padding-top: 30px;
+}
+/* .ak-b{
+width: 150px;
+height: 400px;
+} */
+
+.ak-c-two {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 150px;
+  /* background-color: coral; */
+}
+
+.ak-img-two {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: 0.7 !important;
+}
+
+.ak-img-two:hover {
+  transform: scale(1.2) !important;
+  transition: 0.7s !important;
+}
+
+.ak-text-rgba {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.ak-c-three {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.ak-img-three {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.7 !important;
+}
+
+.ak-img-three:hover {
+  transform: scale(1.2) !important;
+  transition: 0.7s !important;
+}
+
+.ak-text-radial {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.rgb-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.ak-rgb-one {
+  width: 350px;
+  /* height: 180px; */
+  background-color: teal;
+  border-radius: 6%;
+  padding: 30px;
+  margin: 15px;
+}
+
+.ak-h-five-one {
+  font-size: 15px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.ak-rgb-two {
+  width: 350px;
+  /* height: 140px; */
+  background-color: teal;
+  border-radius: 6%;
+  padding: 30px;
+  margin: 15px;
+  display: flex;
+}
+
+.ak-h-five-two {
+  font-size: 15px;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.ak-rgb-three {
+  width: 350px;
+  /* height: 140px; */
+  background-color: teal;
+  border-radius: 6%;
+  padding: 30px;
+  margin: 15px;
+}
+
+.ak-h-five-three {
+  font-size: 15px;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 22px;
+}
+
+.ak-card-container {
+  display: flex;
+  /* width: 100%; */
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 100px;
+}
+
+.ak-rgb-row-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ak-rgb-row-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ak-c-1 {
+  display: flex;
+  border-color: teal;
+  border: solid teal 2px;
+  margin: 40px;
+  justify-content: center;
+}
+
+.ak-red {
+  width: 40px;
+  height: 40px;
+}
+
+.ak-green {
+  width: 40px;
+  height: 40px;
+}
+
+.ak-blue {
+  width: 40px;
+  height: 40px;
+}
+
+.rgba-container {
+  display: flex;
+}
+
+.rgba-one {
+  /* height: 180px; */
+  width: 315px;
+  background-color: teal;
+  border-radius: 6%;
+  padding: 30px;
+  margin: 40px;
+}
+
+.rgba-h-one {
+  font-size: 15px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.rgba-two {
+  /* height: 180px; */
+  width: 315px;
+  background-color: teal;
+  border-radius: 6%;
+  padding: 30px;
+  margin: 40px;
+}
+
+.rgba-h-two {
+  font-size: 15px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.rgba-three {
+  /* height: 180px; */
+  width: 315px;
+  background-color: teal;
+  border-radius: 6%;
+  padding: 30px;
+  margin: 40px;
+}
+
+.rgba-h-three {
+  font-size: 15px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.spreadCard {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.mg-main-background {
+  background-color: #343a40;
+  width: 100%;
+  height: 9000px;
+  border: 3px solid rgb(255, 200, 0);
+}
+
+.mg-h1 {
+  color: rgb(255, 200, 0);
+  padding: 10px;
+  /* text-decoration: underline; */
+}
+
+.mg-p-1 {
+  color: rgb(255, 200, 0);
+}
