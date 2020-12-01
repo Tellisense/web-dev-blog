@@ -1,0 +1,10 @@
+.nachi1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.dontsuck {
+    text-transform: uppercase;
+    text-size-adjust: 35;
+}
