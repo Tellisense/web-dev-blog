@@ -1,0 +1,22 @@
+{
+  "name": "web-dev-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tellisense/web-dev-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    
+  },
+  "bugs": {
+    "url": "https://github.com/Tellisense/web-dev-blog/issues"
+  },
+  "homepage": "https://github.com/Tellisense/web-dev-blog#readme"
+}
