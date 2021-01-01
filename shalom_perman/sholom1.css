@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card1 {
+  width: 40%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.card2 {
+  width: 40%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.img1 {
+  width: 100%;
+}
+
+.btn {
+  color: black;
+  background-color: rgb(71, 71, 255);
+}
+.btn:hover {
+  color: black;
+  background-color: rgb(63, 0, 252);
+}
