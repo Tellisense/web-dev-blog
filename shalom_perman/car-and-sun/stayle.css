@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.sun-container {
+  height: 500px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+.sun {
+  height: 100%;
+  width: 55%;
+  background: rgb(255, 142, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 142, 0, 1) 15%,
+    rgba(255, 126, 0, 1) 15%,
+    rgba(255, 235, 0, 0.7364672364672364) 41%,
+    rgba(185, 174, 0, 0.5028490028490029) 49%,
+    rgba(185, 174, 0, 0) 53%
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ocean {
+  height: 100px;
+  width: 100%;
+  background: rgb(0, 159, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 159, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 67%
+  );
+}
+.roed {
+  height: 300px;
+  width: 100%;
+  background-color: gray;
+  position: relative;
+}
+
+.roed-block {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  border: 12px dashed wheat;
+}
+.truck-1 {
+  position: absolute;
+  top: 20px;
+  width: 230px;
+  animation-name: drive1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.truck-2 {
+  position: absolute;
+  top: 200px;
+  width: 230px;
+  animation-name: drive2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes drive1 {
+  from {
+    transform: translate(-220px);
+  }
+  to {
+    transform: translate(1550px);
+  }
+}
+
+@keyframes drive2 {
+  from {
+    transform: translate(-220px);
+  }
+  to {
+    transform: translate(1550px);
+  }
+}

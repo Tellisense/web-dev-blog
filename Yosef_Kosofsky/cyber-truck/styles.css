@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sky {
+  height: 50%;
+  background: rgb(247,248,0);
+  background: radial-gradient(circle, rgba(247,248,0,1) 10%, rgba(242,142,0,1) 13%, rgba(0,212,255,1) 78%, rgba(107,169,244,1) 100%, rgba(0,5,36,1) 100%);
+}
+
+.ocean {
+  height: 10%;
+  background: rgb(24,0,248);
+  background: linear-gradient(180deg, rgba(24,0,248,1) 0%, rgba(0,21,242,1) 0%, rgba(245,253,255,1) 0%, rgba(38,130,247,1) 99%, rgba(0,5,36,1) 100%);
+}
+
+.wall {
+  height: 5%;
+  background: rgb(53, 19, 19);
+  border-top: 10px solid rgb(48, 35, 35);
+  border-bottom: 10px solid rgb(41, 26, 26);
+  width: 100%;
+}
+
+.road {
+  height: 28%;
+  background-color: grey;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  position: relative;
+}
+
+.lines {
+  border-top: 18px dashed white;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.cyber-truck {
+  height: 6rem;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  z-index: 1;
+  animation-name: drive;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(1800px)
+  }
+
+}

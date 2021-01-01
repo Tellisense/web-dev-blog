@@ -3,10 +3,6 @@ body {
   background-color: #f8f9fa !important;
 }
 
-.sholom {
-  height: 120px;
-}
-
 .ak-parent {
   background-color: #212529de;
   width: 100%;
@@ -158,11 +154,11 @@ height: 400px;
 
 .ak-card-container {
   display: flex;
-  /* width: 100%; */
+  width: 100%;
   margin: 0 auto;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
 
 .ak-rgb-row-one {
@@ -178,6 +174,7 @@ height: 400px;
 .ak-c-1 {
   display: flex;
   border-color: teal;
+ /* width: ; */
   border: solid teal 2px;
   margin: 40px;
   justify-content: center;
